@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## PSSH Extractor
 
-First, run the development server:
+https://pssh-extractor.vercel.app
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+This is an open-source website where you can quickly extract the Protection System Specific Header (PSSH) by using the initialization file. There are generally 2 PSSH extracted. Widevine and Playready. You can go to Axinom and validate your PSSH. This site is for educational purposes only and does not guarantee anything.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Built with Next.js and Tailwind CSS and deployed to Vercel.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Frequently Asked Questions
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### How does this work, any limitations ?
 
-## Learn More
+File reading and calculations are done in your browser. So there's no interaction with any server. There's only one limitation. Your file should be under 1MB, generally initialization files are 2-3 KB, so you should be fine. However, if you come across anything different, please create an issue. 
 
-To learn more about Next.js, take a look at the following resources:
+### What does this mean `Failed to extract PSSH from your file` ?
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+It's possible that you've passed an invalid file. Make sure you use the initialization file. If this error still occurs, feel free to create an issue.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Why ?
 
-## Deploy on Vercel
+Why not ?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## TODO
+
+- Add tests
+
+- Add a feature to determine PSSH's type (Widevine, Playready)
