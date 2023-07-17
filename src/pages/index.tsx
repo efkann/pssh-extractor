@@ -46,7 +46,7 @@ export default function Home() {
           <h1 className="text-3xl text-center font-semibold col-start-2">
             PSSH Extractor
           </h1>
-          <div className="bg-neutral-100 text-neutral-600 text-sm font-medium rounded-sm hover:bg-neutral-300 transition-colors">
+          <div className="bg-neutral-100 text-neutral-600 text-sm font-medium rounded-sm hover:bg-neutral-300 transition-colors sm:static fixed right-4 bottom-4">
             <a href="https://github.com/efkann/pssh-extractor">
               <div className="flex items-center gap-1 px-2 py-1">
                 <StarIcon className="h-4 w-4" />
