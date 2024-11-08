@@ -43,7 +43,7 @@ export default function FAQ() {
           System Specific Header (PSSH) by using the initialization file. There
           are generally 2 PSSH extracted. Widevine and Playready. You can check
           <HighlightedLink href="https://emarsden.github.io/pssh-box-wasm/decode/">
-            &nbsp;Emarsden's tool&nbsp;
+            &nbsp;Emarsden&apos;s tool&nbsp;
           </HighlightedLink>
           to validate your PSSH. This site is for educational purposes only and
           does not guarantee anything.
