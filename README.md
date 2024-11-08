@@ -3,7 +3,7 @@
 
 https://pssh-extractor.vercel.app
 
-This is an open-source website where you can quickly extract the Protection System Specific Header (PSSH) by using the initialization file. There are generally 2 PSSH extracted. Widevine and Playready. You can go to Axinom and validate your PSSH. This site is for educational purposes only and does not guarantee anything.
+This is an open-source website where you can quickly extract the Protection System Specific Header (PSSH) by using the initialization file. There are generally 2 PSSH extracted. Widevine and Playready. You can check [Emarsden's tool](https://emarsden.github.io/pssh-box-wasm/decode/) to validate your PSSH. This site is for educational purposes only and does not guarantee anything.
 
 Built with Next.js and Tailwind CSS and deployed to Vercel.
 

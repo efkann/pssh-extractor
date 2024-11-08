@@ -41,11 +41,11 @@ export default function FAQ() {
         <Answer>
           An open-source website where you can quickly extract the Protection
           System Specific Header (PSSH) by using the initialization file. There
-          are generally 2 PSSH extracted. Widevine and Playready. You can go to
-          <HighlightedLink href="https://tools.axinom.com/decoders/PsshBox">
-            &nbsp;Axinom&nbsp;
+          are generally 2 PSSH extracted. Widevine and Playready. You can check
+          <HighlightedLink href="https://emarsden.github.io/pssh-box-wasm/decode/">
+            &nbsp;Emarsden's tool&nbsp;
           </HighlightedLink>
-          and validate your PSSH. This site is for educational purposes only and
+          to validate your PSSH. This site is for educational purposes only and
           does not guarantee anything.
         </Answer>
       </FAQItem>
