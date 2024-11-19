@@ -12,6 +12,8 @@ const DRM_TYPES = {
   '80a6be7e-1448-4c37-9e70-d5aebe04c8d2': 'Irdeto Content Protection',
   '94ce86fb-07ff-4f43-adb8-93d2fa968ca2': 'FairPlay',
   'f239e769-efa3-4850-9c16-a903c6932efb': 'Adobe Primetime',
+  'adb41c24-2dbf-4a6d-958b-4457c0d27b95': 'Nagra MediaAccess PRM 3.0',
+  '3d5e6d35-9b9a-41e8-b843-dd3c6e72c42c': 'ChinaDRM',
 } as const;
 
 type UUID = keyof typeof DRM_TYPES;
